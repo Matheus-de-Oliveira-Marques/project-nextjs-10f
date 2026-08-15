@@ -56,7 +56,7 @@ export const resume: Resume = {
     summary:
       "Desenvolvedor(a) com foco em interfaces web modernas, acessíveis e performáticas. Apaixonado(a) por React e pelo ecossistema JavaScript.",
     location: "Cidade, País",
-    avatar: "/avatar.png",
+    avatar: "/avatar.svg",
   },
   contact: {
     email: "seu-email@exemplo.com",
