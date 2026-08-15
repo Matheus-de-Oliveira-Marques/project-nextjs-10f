@@ -39,6 +39,9 @@ export default function Home() {
       <Skills skills={skills} />
       <Projects projects={projects} />
       <Contact contact={contact} />
+      <footer className="border-t border-zinc-200 pt-6 text-center text-sm text-zinc-500">
+        © {new Date().getFullYear()} {profile.name}. Feito com Next.js.
+      </footer>
     </main>
   );
 }

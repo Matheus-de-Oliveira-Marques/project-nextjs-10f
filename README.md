@@ -32,16 +32,16 @@ Ao final, você terá:
 
 Este repositório será executado em etapas sequenciais. Cada etapa introduz um conceito novo do Next.js e conclui com um checkpoint do projeto.
 
-- Etapa 0: Fundamentos do tutorial e visão geral do projeto
-- Etapa 1: Setup inicial do projeto Next.js
-- Etapa 2: Layout raiz e Tailwind
-- Etapa 3: Estrutura de dados do currículo
-- Etapa 4: Componentização das seções
-- Etapa 5: Imagens e assets
-- Etapa 6: Metadata e SEO
-- Etapa 7: Interatividade mínima
-- Etapa 8: Build estático e deploy
-- Etapa 9: Polimento final e próximos passos
+- Etapa 0: [Fundamentos do tutorial e visão geral do projeto](tutorial/00-introducao.md)
+- Etapa 1: [Setup inicial do projeto Next.js](tutorial/01-setup.md)
+- Etapa 2: [Layout raiz, fontes e base do Tailwind](tutorial/02-layout.md)
+- Etapa 3: [Estrutura de dados do currículo](tutorial/03-dados.md)
+- Etapa 4: [Componentização das seções](tutorial/04-componentes.md)
+- Etapa 5: [Imagens e ícones](tutorial/05-imagens.md)
+- Etapa 6: [Metadata e SEO](tutorial/06-seo.md)
+- Etapa 7: [Interatividade mínima com Client Component](tutorial/07-client-component.md)
+- Etapa 8: [Static export e deploy no Cloudflare Pages](tutorial/08-deploy.md)
+- Etapa 9: [Polimento final e próximos passos](tutorial/09-polimento.md)
 
 ## Checkpoints por módulo
 
