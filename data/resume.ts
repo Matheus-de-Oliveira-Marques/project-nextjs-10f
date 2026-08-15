@@ -49,6 +49,8 @@ export type Resume = {
   projects: Project[];
 };
 
+export const siteUrl = "https://seu-site.exemplo.com";
+
 export const resume: Resume = {
   profile: {
     name: "Seu Nome",

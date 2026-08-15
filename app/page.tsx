@@ -1,4 +1,4 @@
-import { resume } from "@/data/resume";
+import { resume, siteUrl } from "@/data/resume";
 import { Hero } from "@/app/components/Hero";
 import { About } from "@/app/components/About";
 import { Experience } from "@/app/components/Experience";
@@ -10,8 +10,24 @@ import { Contact } from "@/app/components/Contact";
 export default function Home() {
   const { profile, contact, experiences, education, skills, projects } = resume;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: profile.name,
+    jobTitle: profile.role,
+    description: profile.summary,
+    email: contact.email,
+    url: siteUrl,
+    image: `${siteUrl}${profile.avatar}`,
+    sameAs: [contact.github, contact.linkedin, contact.website].filter(Boolean),
+  };
+
   return (
     <main className="mx-auto flex max-w-3xl flex-col gap-10 px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Hero profile={profile} contact={contact} />
       <About profile={profile} />
       <Experience experiences={experiences} />
