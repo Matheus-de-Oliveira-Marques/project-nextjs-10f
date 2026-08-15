@@ -4,6 +4,8 @@ Este repositório organiza um tutorial prático de Next.js para estudantes que j
 
 O objetivo é construir, ao longo das etapas, um currículo pessoal em formato de landing page estática, com foco em conceitos essenciais do framework e em um resultado final útil e apresentável.
 
+Ao final, o site é publicado como conteúdo estático no Cloudflare Pages. O passo a passo de publicação está na [Etapa 8](tutorial/08-deploy.md).
+
 ## Objetivo do projeto
 
 Ao final, você terá:
@@ -21,12 +23,14 @@ Ao final, você terá:
 
 ## Tecnologias principais
 
-- Next.js 14/15
+- Next.js 16
 - React
 - TypeScript
 - Tailwind CSS
 - static export para deploy em Cloudflare Pages
 - lucide-react para ícones
+
+> Este tutorial foi validado com Next.js 16 e Tailwind CSS v4.
 
 ## Estrutura do tutorial
 
@@ -53,6 +57,24 @@ Exemplo:
 git tag modulo-00
 ```
 
+## Como usar os checkpoints
+
+Cada tag `modulo-XX` corresponde ao estado do projeto ao final daquela etapa.
+
+Você pode navegar por elas para estudar ou comparar o código:
+
+```bash
+# ver o projeto no estado de uma etapa específica
+git checkout modulo-04
+
+# voltar para a versão mais recente
+git switch -
+# ou
+git checkout main
+```
+
+Use isso para revisar como o projeto evoluiu a cada etapa, sem perder o seu progresso na branch `main`.
+
 ## Pré-requisitos
 
 Antes de começar, você precisa ter instalado:
@@ -70,10 +92,14 @@ Antes de começar, você precisa ter instalado:
 4. valide os resultados
 5. finalize a etapa e marque o checkpoint
 
-## Próxima etapa
+## Por onde começar
 
-A etapa atual é a base do tutorial. Antes de começar a implementação do projeto em Next.js, vamos compreender melhor o que esse framework oferece e por que ele é importante para quem já conhece React.
+Siga as etapas na ordem, usando o índice acima como guia de navegação.
+
+Comece pela introdução em [tutorial/00-introducao.md](tutorial/00-introducao.md),
+que explica o que é o Next.js e apresenta o projeto. Depois, avance uma etapa por
+vez até publicar o currículo.
 
 ---
 
-Consulte a introdução em [tutorial/00-introducao.md](tutorial/00-introducao.md).
+Bons estudos!
