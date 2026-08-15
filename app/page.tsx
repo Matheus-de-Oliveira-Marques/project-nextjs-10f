@@ -6,6 +6,7 @@ import { Education } from "@/app/components/Education";
 import { Skills } from "@/app/components/Skills";
 import { Projects } from "@/app/components/Projects";
 import { Contact } from "@/app/components/Contact";
+import { PrintButton } from "@/app/components/PrintButton";
 
 export default function Home() {
   const { profile, contact, experiences, education, skills, projects } = resume;
@@ -28,6 +29,9 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <div className="flex justify-end">
+        <PrintButton />
+      </div>
       <Hero profile={profile} contact={contact} />
       <About profile={profile} />
       <Experience experiences={experiences} />
