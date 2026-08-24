@@ -53,49 +53,90 @@ export const siteUrl = "https://seu-site.exemplo.com";
 
 export const resume: Resume = {
   profile: {
-    name: "Seu Nome",
-    role: "Desenvolvedor(a) Frontend",
+    name: "Matheus de Oliveira Marques",
+    role: "Desenvolvedor(a) Frontend Pleno",
     summary:
-      "Desenvolvedor(a) com foco em interfaces web modernas, acessíveis e performáticas. Apaixonado(a) por React e pelo ecossistema JavaScript.",
-    location: "Cidade, País",
-    avatar: "/avatar.svg",
+      "Desenvolvedor(a) com foco em interfaces web modernas, acessíveis e performáticas. Apaixonado(a) por React e pelo ecossistema JavaScript.Sou um profissional que atua em diversas áreas de desenvolvimento.Minhas habilidades abrangem desenvolvimento Full Stack, com expertise em linguagens como SQL Server, PHP, HTML, CSS, JavaScript, ReactJS e React Native. Experiência em Vtex, Lambda e API Gateway.Sou motivado por desafios e busco sempre o melhor para a equipe e para a empresa",
+    location: "Carapicuiba, São Paulo",
+    avatar: "https://media.licdn.com/dms/image/v2/D4D03AQH6kWGRDOhnvw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1705887959898?e=1788998400&v=beta&t=jv5VKMLWdYtJlocl2QTAJqNvFW58mUKj7QzUyZsOIss",
   },
   contact: {
-    email: "seu-email@exemplo.com",
-    phone: "+55 00 00000-0000",
-    website: "https://seu-site.exemplo.com",
-    github: "https://github.com/seu-usuario",
-    linkedin: "https://linkedin.com/in/seu-usuario",
+    email: "theu1421@gmail.com",
+    phone: "+55 11949367940",
+    website: "/",
+    github: "https://github.com/Matheus-de-Oliveira-Marques",
+    linkedin: "https://www.linkedin.com/in/matheus-de-oliveira-marques-459529156/",
   },
   experiences: [
     {
-      company: "Empresa Exemplo",
-      role: "Desenvolvedor(a) Frontend",
-      period: "2023 — atual",
+      company: "Quality Digital",
+      role: "DESENVOLVEDOR WEB FULL STACK - PLENO",
+      period: "2024 — atual",
       description:
-        "Desenvolvimento e manutenção de interfaces web com React e TypeScript.",
-      highlights: [
-        "Implementação de novas funcionalidades no produto principal",
-        "Melhoria de performance e acessibilidade das telas",
-        "Colaboração com design e backend em entregas contínuas",
-      ],
-    },
-    {
-      company: "Startup Exemplo",
-      role: "Desenvolvedor(a) Júnior",
-      period: "2021 — 2023",
-      description:
-        "Atuação em projetos web usando JavaScript, HTML e CSS.",
+        "Desenvolvimento e manutenção de interfaces web com React e TypeScript. Construção de loja e-commerce , utilizando ambiente Vtex,Grapqhl,Scss,React,Typescript, JavasCript, CSS",
       highlights: [
         "Criação de componentes reutilizáveis",
         "Correção de bugs e melhorias de UX",
+        "Implementação de novas funcionalidades no produto principal",
+        "Melhoria de performance e acessibilidade das telas",
+        "Colaboração com design e backend em entregas contínuas",
+        "Trabalhando em grandes clientes como , americanas, tena, fastShop, Atacadão"
+      ],
+    },
+    {
+      company: "Maeztra",
+      role: "DESENVOLVEDOR WEB FULL STACK - PLENO",
+      period: "2023 — 2023",
+      description:
+        "Desenvolvimento e manutenção de interfaces web com React e TypeScript. Construção de loja e-commerce , utilizando ambiente Vtex,Grapqhl,Scss,React,Typescript, JavasCript, CSS",
+      highlights: [
+        "Criação de componentes reutilizáveis",
+        "Correção de bugs e melhorias de UX",
+        "Implementação de novas funcionalidades no produto principal",
+        "Melhoria de performance e acessibilidade das telas",
+        "Colaboração com design e backend em entregas contínuas"
+      ],
+    },
+    {
+      company: "Trade Up",
+      role: "DESENVOLVEDOR WEB FULL STACK - PLENO",
+      period: "2023 — 2023",
+      description:
+        "Construção e criação de fluxos como arquitetura e desenvolvimento de aplicativo voltado a ecommerce",
+      highlights: [
+        "Criação de componentes reutilizáveis",
+        "Criação de arquitetura do projeto",
+        "Implementação de novas funcionalidades no produto principal",
+        "Colaboração com design e backend em entregas contínuas"
+      ],
+    },
+      {
+      company: "Corebiz",
+      role: "DESENVOLVEDOR WEB FULL STACK - PLENO",
+      period: "2021 — 2023",
+      description:
+        "Desenvolvimento e manutenção de interfaces web com React e TypeScript. Construção de loja e-commerce , utilizando ambiente Vtex,Grapqhl,Scss,React,Typescript, JavasCript, CSS",
+      highlights: [
+        "Criação de componentes reutilizáveis",
+        "Correção de bugs e melhorias de UX",
+        "Implementação de novas funcionalidades no produto principal",
+        "Melhoria de performance e acessibilidade das telas",
+        "Colaboração com design e backend em entregas contínuas",
+        "Trabalhando em grandes clientes como , motorola US, Lenovo",
+        "Líder técnico em projetos internacionais",
+        "Utilizição de HTML, CSS, Javascript puro, para aplicações oracle"
       ],
     },
   ],
   education: [
     {
-      institution: "Universidade Exemplo",
-      degree: "Bacharelado em Ciência da Computação",
+      institution: "Fiap",
+      degree: "MBA em Engenharia de Software",
+      period: "2025 — 2026",
+    },
+     {
+      institution: "FATEC",
+      degree: "Sistemas Para Internet",
       period: "2017 — 2021",
     },
   ],
@@ -115,18 +156,39 @@ export const resume: Resume = {
   ],
   projects: [
     {
-      name: "Meu Portfólio",
+      name: "Fast Shop",
       description:
-        "Site pessoal construído com Next.js para apresentar projetos e experiências.",
-      url: "https://seu-site.exemplo.com",
-      tags: ["Next.js", "TypeScript", "Tailwind"],
+        "Desenvolvimento do site Eccom, junto com o time de desenvolvimento.",
+      url: "https://site.fastshop.com.br",
+      tags: ["Next.js", "TypeScript", "React", "JSONC", "Vtex", "Graphql", "Scss"],
+    },
+     {
+      name: "TCL",
+      description:
+        "Desenvolvimento do site Eccom, junto com o time de desenvolvimento.",
+      url: "https://www.lojatcl.com.br/",
+      tags: ["Next.js", "TypeScript", "React", "JSONC", "Vtex", "Graphql", "Scss"],
     },
     {
-      name: "Projeto Open Source",
+      name: "Lenovo Support USA",
       description:
-        "Contribuições em um projeto open source da comunidade JavaScript.",
-      url: "https://github.com/seu-usuario/projeto",
-      tags: ["React", "Open Source"],
+        "Desenvolviemento de projeto freelancer interno, construido para time Lenovo",
+      url: "https://pcsupport.lenovo.com/id/en",
+      tags: ["HTML", "CSS", "Javascript"],
+    },
+     {
+      name: "Motorola Support",
+      description:
+        "Desenvolviemento de projeto freelancer interno, construido para time Motorola",
+      url: "https://en-us.support.motorola.com/",
+      tags: ["HTML", "CSS", "Javascript"],
+    },
+     {
+      name: "New Balance",
+      description:
+        "Desenvolviemento de projeto freelancer interno, construido para time Lenovo",
+      url: "https://www.newbalance.com.br/",
+      tags: [ "TypeScript", "React", "JSONC", "Vtex", "Graphql", "Scss"],
     },
   ],
 };
