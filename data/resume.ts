@@ -63,7 +63,7 @@ export const resume: Resume = {
   contact: {
     email: "theu1421@gmail.com",
     phone: "+55 11949367940",
-    website: "/",
+    website: "",
     github: "https://github.com/Matheus-de-Oliveira-Marques",
     linkedin: "https://www.linkedin.com/in/matheus-de-oliveira-marques-459529156/",
   },
