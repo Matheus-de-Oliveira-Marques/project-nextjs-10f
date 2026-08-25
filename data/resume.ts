@@ -143,7 +143,7 @@ export const resume: Resume = {
      {
       company: "Mobly",
       role: "ESTÁGIO - DESENVOLVEDOR FULL STACK",
-      period: "2021 — 2023",
+      period: "2019 — 2020",
       description:
         "Desenvolvimento e manutenção de interfaces web com React e TypeScript. ",
       highlights: [
