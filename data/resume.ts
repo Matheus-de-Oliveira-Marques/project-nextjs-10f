@@ -141,8 +141,8 @@ export const resume: Resume = {
         ],
     },
      {
-      company: "Integra IT",
-      role: "DESENVOLVEDOR FRONT END - PLENO",
+      company: "Mobly",
+      role: "ESTÁGIO - DESENVOLVEDOR FULL STACK",
       period: "2021 — 2023",
       description:
         "Desenvolvimento e manutenção de interfaces web com React e TypeScript. ",
