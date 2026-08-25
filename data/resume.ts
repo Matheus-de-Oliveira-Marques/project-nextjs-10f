@@ -70,7 +70,7 @@ export const resume: Resume = {
   experiences: [
     {
       company: "Quality Digital",
-      role: "DESENVOLVEDOR WEB FULL STACK - PLENO",
+      role: "DESENVOLVEDOR WEB FULL STACK- PLENO",
       period: "2024 — atual",
       description:
         "Desenvolvimento e manutenção de interfaces web com React e TypeScript. Construção de loja e-commerce , utilizando ambiente Vtex,Grapqhl,Scss,React,Typescript, JavasCript, CSS",
@@ -85,7 +85,7 @@ export const resume: Resume = {
     },
     {
       company: "Maeztra",
-      role: "DESENVOLVEDOR WEB FULL STACK - PLENO",
+      role: "DESENVOLVEDOR FRONT END - PLENO",
       period: "2023 — 2023",
       description:
         "Desenvolvimento e manutenção de interfaces web com React e TypeScript. Construção de loja e-commerce , utilizando ambiente Vtex,Grapqhl,Scss,React,Typescript, JavasCript, CSS",
@@ -112,8 +112,8 @@ export const resume: Resume = {
     },
       {
       company: "Corebiz",
-      role: "DESENVOLVEDOR WEB FULL STACK - PLENO",
-      period: "2021 — 2023",
+      role: "DESENVOLVEDOR FRONT END - PLENO",
+      period: "2020 — 2021",
       description:
         "Desenvolvimento e manutenção de interfaces web com React e TypeScript. Construção de loja e-commerce , utilizando ambiente Vtex,Grapqhl,Scss,React,Typescript, JavasCript, CSS",
       highlights: [
@@ -126,6 +126,32 @@ export const resume: Resume = {
         "Líder técnico em projetos internacionais",
         "Utilizição de HTML, CSS, Javascript puro, para aplicações oracle"
       ],
+    },
+      {
+      company: "Integra IT",
+      role: "DESENVOLVEDOR FRONT END - PLENO",
+      period: "2021 — 2023",
+      description:
+        "Desenvolvimento e manutenção de interfaces web com React e TypeScript. ",
+      highlights: [
+        "Desenvolvimento em ERP rockit, tendi integrações com canais de vendas, utilizando React para o desenvolvimento de telas e aplicações, e aplicações vinda da Amazon, Lambda, APIGataway.",
+        "Utilizando Git para organização e criação de tasks.",
+        "Suporte para clientes que utilizam o ERP.",
+        "Treinamentos sobre a plataforma"
+        ],
+    },
+     {
+      company: "Integra IT",
+      role: "DESENVOLVEDOR FRONT END - PLENO",
+      period: "2021 — 2023",
+      description:
+        "Desenvolvimento e manutenção de interfaces web com React e TypeScript. ",
+      highlights: [
+        "Desenvolvimento de aplicação legadas para aplicações funcionais, utilizando React para o front e PhP , MySql para backend",
+        "Utilização de metodologias ágeis como Cambam, Scrum",
+        "Correção de bugs e melhorias de UX",
+        "Implementação de novas funcionalidades no produto principal"
+        ],
     },
   ],
   education: [
@@ -143,15 +169,15 @@ export const resume: Resume = {
   skills: [
     {
       category: "Linguagens",
-      items: ["JavaScript", "TypeScript", "HTML", "CSS"],
+      items: ["JavaScript", "TypeScript", "HTML", "CSS", "PHP", "MySQL"],
     },
     {
       category: "Frameworks e bibliotecas",
-      items: ["React", "Next.js", "Tailwind CSS"],
+      items: ["React", "Next.js", "Tailwind", "CSS", "SCSS", "Synfony", "Laravel"],
     },
     {
       category: "Ferramentas",
-      items: ["Git", "VS Code", "Figma"],
+      items: ["Git", "VS Code", "Figma", "Amazon", "Lambda", "APIGataway", "Jira"],
     },
   ],
   projects: [
